@@ -1,0 +1,35 @@
+{
+  "name": "dcompose-middleware",
+  "version": "0.0.0",
+  "description": "Connect middleware for serving dcompose bundles",
+  "main": "index.js",
+  "dependencies": {
+    "mimetype": "~0.0.5",
+    "stream-aggregate-promise": "~0.1.1"
+  },
+  "devDependencies": {
+    "semver": "~2.1.0",
+    "jshint": "~2.1.11",
+    "mocha": "~1.13.0",
+    "express": "~3.4.0",
+    "dcompose": "~0.3.0",
+    "supertest": "~0.8.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec specs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "andreypopp/dcompose-middleware"
+  },
+  "keywords": [
+    "dcompose",
+    "dgraph",
+    "commonjs",
+    "assets",
+    "connect",
+    "express"
+  ],
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "license": "MIT"
+}
