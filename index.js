@@ -1,7 +1,6 @@
 "use strict";
 
-var aggregate = require('stream-aggregate-promise'),
-    mimetype  = require('mimetype');
+var mimetype  = require('mimetype');
 
 function makeServeBundle(method, composer) {
   function serveBundle(req, res, next) {

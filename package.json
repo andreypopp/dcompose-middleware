@@ -4,8 +4,7 @@
   "description": "Connect middleware for serving dcompose bundles",
   "main": "index.js",
   "dependencies": {
-    "mimetype": "~0.0.5",
-    "stream-aggregate-promise": "~0.1.1"
+    "mimetype": "~0.0.5"
   },
   "devDependencies": {
     "semver": "~2.1.0",
